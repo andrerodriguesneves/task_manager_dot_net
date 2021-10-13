@@ -1,0 +1,45 @@
+########### PADRAO UTILIZADO 
+
+	Padrão MVC – MODEL, VIEW e CONTROLLER
+	Consiste em um padrão de desenvolvimento
+	de aplicações web baseado em 3 camadas:
+	
+	• MODEL
+		Camada responsável pelos dados de entrada / saída do sistema web.
+	• VIEW
+		Camada que representa as páginas web do projeto, composta de
+		HTML, CSS e JAVASCRIPT (FRONTEND)
+	• CONTROLLER
+		Camada que gerencia as páginas (VIEWS) do projeto, recebendo as
+		requisições e retornando as respostas.
+
+
+1 - Presentation Layer 
+
+	Arquivos 
+
+		/Program.cs
+			Classe responsável por executar o projeto. No caso de aplicações web, ele
+			faz com que o projeto seja executado no servidor web selecionado (em caso
+			de desenvolvimento local este servidor é o IIS – INTERNET INFORMATION
+			SERVICE).
+			
+		/Startup.cs
+			Classe onde iremos configurar as preferencias de inicialização do projeto
+			NET CORE. Aqui iremos mapear como o projeto devera funcionar em tempo
+			de execução.
+
+		/appsettings.json
+			Arquivo de configuração que iremos utilizar no projeto .NET para mapear
+			parâmetros de configuração do sistema, como por exemplo:
+			• Mapeamento da string de conexão do banco de dados.
+			• Mapeamento de parâmetros de envio de email
+			• Mapeamento de parâmetros para geração de logs do sistema
+			• Etc.
+			
+
+	CONTROLLER
+	
+		Ao criar o controlador inicial(Home), devemos adicionar a exibição(Exibição Razor). 
+		definir no Startup, no metodo ConfigureServices, o modo de navegação 
+			services.AddControllerWithViews();
