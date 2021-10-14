@@ -109,3 +109,4 @@ D:\Pessoal\Github\task_manager_dot_net\ProjetoTask\ProjetoTasks.Presentation\obj
 D:\Pessoal\Github\task_manager_dot_net\ProjetoTask\ProjetoTasks.Presentation\obj\Debug\net5.0\ProjetoTask.Presentation.RazorTargetAssemblyInfo.cs
 D:\Pessoal\Github\task_manager_dot_net\ProjetoTask\ProjetoTasks.Presentation\obj\Debug\net5.0\ProjetoTask.Presentation.Views.pdb
 D:\Pessoal\Github\task_manager_dot_net\ProjetoTask\ProjetoTasks.Presentation\obj\Debug\net5.0\Razor\Views\Shared\Layout.cshtml.g.cs
+D:\Pessoal\Github\task_manager_dot_net\ProjetoTask\ProjetoTasks.Presentation\obj\Debug\net5.0\Razor\Views\Tarefas\Cadastro.cshtml.g.cs
